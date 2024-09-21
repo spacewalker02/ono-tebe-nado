@@ -1,0 +1,371 @@
+.page {
+  width: 1100px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+}
+
+.container-type-narrow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-type-wide {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.header {
+  box-sizing: border-box;
+  width: 1052px;
+  height: 105px;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  align-items: center;
+  margin-top: 92px;
+  margin-bottom: 96px;
+  padding-left: 26.52px;
+  padding-right: 25.48px;
+}
+
+.text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  }
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  list-style: circle;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-transform: lowercase;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  margin-right: 25.48px;
+}
+
+.jumbotron {
+  position: relative;
+  height: 757px;
+  background-image: url(./images/lotus-flower.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.title {
+  box-sizing: border-box;
+  padding-top: 165px;
+}
+
+.title-text {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 1;
+}
+
+.first-word {
+  line-height: 115px;
+  padding-bottom: 20px;
+}
+
+.second-word {
+  line-height: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  }
+  
+.third-word {
+  line-height: 100px;
+  text-align: right;
+}
+
+.letter-space-extended {
+  letter-spacing: 60px;
+}
+
+.letter-space-normal {
+  letter-spacing: 30px;
+}
+
+.no-letter-space {
+  letter-spacing: 0;
+}
+
+.word-space-collapsed {
+  word-spacing: 18px;
+}
+
+.description {
+  position: absolute;
+  z-index: 1;
+  bottom: 62px;
+  left: 78px;
+}
+
+.text-description {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  word-spacing: 20px;
+  letter-spacing: 0.9;
+}
+
+.button {
+  position: absolute;
+  padding: 12px 31px 11px 32px;
+  z-index: 1;
+  right: 50px;
+  bottom: 51px;
+  color: #fff;
+  background-color: transparent;
+  border: #fff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.button-text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25.83px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.section-title {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
+
+.title-lots {
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+.lots {
+  margin-top: 179px;
+  box-sizing: border-box;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.card {
+  padding: 51px 40px 48px;
+  height: 563px;
+  max-width: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-lot-01 {
+  position: relative;
+  height: 100%;
+  background-image: url(./images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.card-lot-02 {
+  position: relative;
+  height: 100%;
+  background-image: url(./images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-lot-03 {
+  position: relative;
+  height: 100%;
+  background-image: url(./images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.overlay {
+  position: absolute;
+  width: 334px;
+  height: 563px;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: 0;
+}
+
+.card-title {
+  position: relative;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+  z-index: 1;
+  }
+  
+  .card-text { 
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  }
+
+.overlay-jumbotron {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: top left;
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: 0;
+  }
+
+.more {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.text-more {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-decoration: underline;
+  }
+
+.about {
+  margin-top: 146px;
+  margin-bottom: 180px;
+  padding-left: 47px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 72px;
+}
+
+.logo-about {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background-color: #000;
+  grid-column: span 1fr;
+}
+
+.text-about {
+  grid-column:  2fr;
+  margin-top: 133px;
+  display: flex;
+  flex-direction: column;
+  width: 693px;
+  gap: 100px;
+}
+
+.word-space-extended {
+  word-spacing: 1px;
+}
+
+.description-about {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.link {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-transform: lowercase;
+  text-decoration: underline;
+  letter-spacing: 0.7px;
+}
+
+.no-decoration {
+  list-style: none;
+  text-decoration: none;
+}
+
+.text-contacts {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  text-decoration: underline;
+}
+
+.text-address {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 88px;
+  }
+
+  .contacts-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  }
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-transform: lowercase;
+  }
+
+  .socials {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-content: start;
+  }
