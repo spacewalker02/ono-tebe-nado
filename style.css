@@ -54,6 +54,10 @@
   text-transform: lowercase;
 }
 
+.logo {
+  align-items: center;
+}
+
 .contacts {
   display: flex;
   flex-direction: column;
