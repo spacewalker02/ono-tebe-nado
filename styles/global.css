@@ -26,9 +26,22 @@ blockquote {
 }
 
 a {
+  text-decoration: none;
   color: inherit;
 }
 
 img {
   width: 100%;
 }
+
+address {
+    font-style: normal;
+  }
+
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: inherit;
+  background-color: transparent;
+} 
