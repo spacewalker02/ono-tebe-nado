@@ -60,8 +60,15 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  align-items: last baseline;
   margin-right: 25.48px;
+}
+
+.contacts-header {
+  align-items: last baseline;
+}
+
+.contacts-footer {
+  align-items: start;
 }
 
 .jumbotron {
@@ -308,15 +315,11 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24.3px;
-  text-decoration: underline;
+  line-height: 24.3px;;
 }
 
-.text-address {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24.3px;
+.text-with-underline {
+  text-decoration: underline;
 }
 
 .footer {
@@ -324,13 +327,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 88px;
-}
-
-  .contacts-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  min-width: 240px;
 }
 
 .footer-menu-list {
